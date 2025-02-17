@@ -1,0 +1,58 @@
+.add {
+  width: 70%;
+  margin-left: max(5vw, 25px);
+  margin-top: 50px;
+  color: #6d6d6d;
+  font-size: 16px;
+}
+
+.add form {
+  gap: 20px;
+}
+
+.add-coupon-code,
+.add-coupon-description,
+.add-coupon-name,
+.add-coupon-discount,
+.add-coupon-expiredDate {
+  width: max(40%, 280px);
+}
+
+.add input {
+  padding: 10px;
+}
+
+.add-btn {
+  max-width: 120px;
+  border: none;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.grid-container {
+  display: grid;
+  place-items: center;
+  min-height: 80vh;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.loading-spinner {
+  width: 64px;
+  height: 64px;
+  border: 4px solid #94a3b8;
+  border-top-color: #22c55e;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
